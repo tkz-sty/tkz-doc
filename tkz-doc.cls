@@ -29,8 +29,8 @@
 %<--------------------------------------------------------------------------->
 %<-------------- Définitions relatives au package --------------------------->
 \newcommand*{\PackageName}{tkz-doc}
-\newcommand*{\PackageVersion}{1.1 c}
-\newcommand*{\filedate}{2011/05/30}
+\newcommand*{\PackageVersion}{1.1 5}
+\newcommand*{\filedate}{2018/09/19}
 %<---------------------- Identification Part -------------------------------->
 %
 %<--------------------------------------------------------------------------->
@@ -41,7 +41,9 @@
 \ProcessOptions\relax
 \LoadClass[titlepage,oneside]{scrartcl}
 \PassOptionsToPackage{usenames,dvipsnames,svgnames}{xcolor}
-\RequirePackage{etex}
+\ifx\e@alloc\@undefined
+  \RequirePackage{etex}
+\fi
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{xkeyval}[2005/11/25] 
 \RequirePackage{framed,eso-pic}
