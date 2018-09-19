@@ -29,7 +29,7 @@
 %<--------------------------------------------------------------------------->
 %<-------------- Définitions relatives au package --------------------------->
 \newcommand*{\PackageName}{tkz-doc}
-\newcommand*{\PackageVersion}{1.1 5}
+\newcommand*{\PackageVersion}{1.1 d}
 \newcommand*{\filedate}{2018/09/19}
 %<---------------------- Identification Part -------------------------------->
 %
