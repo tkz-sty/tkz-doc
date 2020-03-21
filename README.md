@@ -1,11 +1,10 @@
-# tkz-doc — Class and package for the documentation of all tkz-* packages.
+# tkz-doc — Documentation macros for the TKZ series of packages
 
 Release 1.4c 2020/03/20
 
 ## Note
 
 This package is highly experimental and subject to change without notice.
-
 
 ## Licence
 
