@@ -1,0 +1,4 @@
+The correct locations in the TDS structure are:
+TDS:doc/latex/tkz-doc/README.md
+TDS:tex/latex/tkz-doc/*.*
+Thanks
