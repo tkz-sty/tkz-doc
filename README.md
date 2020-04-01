@@ -8,7 +8,7 @@ This package is highly experimental and subject to change without notice.
 
 ## Licence
 
-The scontents package may be modified and distributed under the terms and
+The `tkz-doc` package may be modified and distributed under the terms and
 conditions of the [LaTeX Project Public License](https://www.latex-project.org/lppl/), version 1.3c or greater.
 
 ## Installation
