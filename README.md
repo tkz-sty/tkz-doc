@@ -1,14 +1,15 @@
-# tkz-doc — Documentation macros for the TKZ series of packages
+# tkz-doc — Class and package for the documentation of all tkz-* packages.
 
-Release 1.4c 2020/03/20
+Release 1.42c 2020/03/20
 
 ## Note
 
 This package is highly experimental and subject to change without notice.
 
+
 ## Licence
 
-The `tkz-doc` package may be modified and distributed under the terms and
+The scontents package may be modified and distributed under the terms and
 conditions of the [LaTeX Project Public License](https://www.latex-project.org/lppl/), version 1.3c or greater.
 
 ## Installation
