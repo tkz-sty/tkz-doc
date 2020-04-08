@@ -1,7 +1,7 @@
 -- Build script for tkz-doc
 
 module = "tkz-doc"
-tkzdocv = "1.4c"
+tkzdocv = "1.42c"
 tkzdocd = "2020/03/20"
 tkzexamplev = "v1.1c"
 tkzexampled = "2011/06/04"
@@ -58,7 +58,7 @@ function update_tag(file, content, tagname, tagdate)
   end
   if string.match(file, "%.cls$") then
     content = string.gsub(content,
-                          "\\newcommand*{\\PackageVersion}{.-}",
+                          "\\newcommand%*{\\PackageVersion}{.-}",
                           "\\newcommand*{\\PackageVersion}{"..tkzdocv.."}")
     content = string.gsub(content,
                           "\\newcommand*{\\filedate}{.-}",

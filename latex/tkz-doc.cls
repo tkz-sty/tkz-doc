@@ -19,7 +19,7 @@
 %% Objet :  Classe LaTeX  et Styles pour créer des documentations.
 %<-------------- Définitions relatives au package --------------------------->
 \newcommand*{\PackageName}{tkz-doc}
-\newcommand*{\PackageVersion}{1.4c}
+\newcommand*{\PackageVersion}{1.42c}
 \newcommand*{\filedate}{2020/03/20}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrartcl}}
