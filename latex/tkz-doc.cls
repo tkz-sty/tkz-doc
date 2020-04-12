@@ -8,19 +8,16 @@
 %   http://www.latex-project.org/lppl.txt
 % and version 1.3 or later is part of all distributions of LaTeX
 % version 2005/12/01 or later.
-%
 % This work has the LPPL maintenance status “maintained”.
-%
 % The Current Maintainer of this work is Alain Matthes.
-%
 % tkz-doc class for use with the tkz documentation
 % ( AlterMundus Collection ).
 %
 %% Objet :  Classe LaTeX  et Styles pour créer des documentations.
 %<-------------- Définitions relatives au package --------------------------->
 \newcommand*{\PackageName}{tkz-doc}
-\newcommand*{\PackageVersion}{1.42c}
-\newcommand*{\filedate}{2020/03/20}
+\newcommand*{\PackageVersion}{1.43c}
+\newcommand*{\filedate}{2020/04/10}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{scrartcl}}
 
@@ -83,13 +80,9 @@
 \newcounter{cnt}\setcounter{cnt}{1}
 \setcounter{secnumdepth}{3}%
 \setcounter{tocdepth}{3}
-\color{blue}
 %<------------------  Éxécution et chargement -----------------------------
-
-
 \RequirePackage{tikz}
-\usetikzlibrary{babel,
-                decorations.shapes,
+\usetikzlibrary{decorations.shapes,
                 decorations.text,
                 decorations.pathreplacing,
                 decorations.pathmorphing,
@@ -121,7 +114,7 @@
 \newenvironment{NewMacroBox}[2]{%
 \parindent=0pt
 \renewcommand*{\ActivBoxName}{#1}
-\def\FrameCommand{\color{myblue}{\vrule width 1pt\hspace{3pt}}}%
+\def\FrameCommand{\color{MidnightBlue}{\vrule width 1pt\hspace{3pt}}}%
 \MakeFramed{\advance\hsize-\width}%
 \noindent
 \makebox[0pt][l]{%
@@ -178,7 +171,7 @@
 \noindent
 % \ignorespaces\tkzcname{#1#3}
 \Ienv{#1}
-\color{myblue}}{%
+\color{MidnightBlue}}{%
 \par\noindent%
 \makebox[0pt][l]{%
 \hspace{-6pt}%
