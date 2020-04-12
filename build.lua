@@ -1,10 +1,10 @@
 -- Build script for tkz-doc
 
 module = "tkz-doc"
-tkzdocv = "1.42c"
-tkzdocd = "2020/03/20"
-tkzexamplev = "v1.1c"
-tkzexampled = "2011/06/04"
+tkzdocv = "1.43c"
+tkzdocd = "2020/04/10"
+tkzexamplev = "v1.43c"
+tkzexampled = "2020/04/10"
 
 -- Setting variables for .zip file (CTAN)
 textfiles  = {"README.md"}

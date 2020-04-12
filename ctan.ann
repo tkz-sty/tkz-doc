@@ -1,2 +1,2 @@
-Changes in this version:
-- Add changes here
+- Correction of a bug about color
+- Remove the library `babel` of TikZ
