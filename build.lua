@@ -18,8 +18,8 @@ cleanfiles = {ctanzip..".curlopt", ctanzip..".zip"}
 -- Setting variables for package files
 sourcefiledir = "latex"
 textfiledir   = "doc"
-sourcefiles  = {"*.*"}
-installfiles = {"*.*"}
+sourcefiles  = {"tkz-doc.cfg", "tkz-doc.cls", "couverture.tex", "tkzexample.sty"}
+installfiles = sourcefiles
 
 -- Setting file locations for local instalation (TDS)
 tdslocations = {
