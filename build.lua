@@ -11,9 +11,10 @@ textfiles  = {"README.md"}
 ctanreadme = "README.md"
 ctanpkg    = module
 ctanzip    = ctanpkg.."-"..tkzdocv
+print(ctanzip..".zip")
 packtdszip = false
 flatten    = false
-cleanfiles = {ctanzip..".curlopt", ctanzip..".zip"}
+cleanfiles = {ctanzip..".zip", ctanzip..".curlopt"}
 
 -- Setting variables for package files
 sourcefiledir = "latex"
