@@ -1,2 +1,1 @@
-- Correction of a bug about color
-- Remove the library `babel` of TikZ
+- Remove `couverture.tex` of TikZ

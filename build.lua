@@ -18,34 +18,22 @@ cleanfiles = {ctanzip..".zip", ctanzip..".curlopt"}
 -- Setting variables for package files
 sourcefiledir = "latex"
 textfiledir   = "doc"
-sourcefiles  = {"tkz-doc.cfg", "tkz-doc.cls", "couverture.tex", "tkzexample.sty"}
+sourcefiles  = {"tkz-doc.cfg", "tkz-doc.cls", "tkzexample.sty", "README.md"}
 installfiles = sourcefiles
 
 -- Setting file locations for local instalation (TDS)
 tdslocations = {
-  "doc/latex/tkz-doc/README",
+  "doc/latex/tkz-doc/README.md",
   "tex/latex/tkz-doc/tkz-doc.cfg",
   "tex/latex/tkz-doc/tkz-doc.cls",
-  "tex/latex/tkz-doc/couverture.tex",
   "tex/latex/tkz-doc/tkzexample.sty",
 }
 
 -- Update package date and version
-tagfiles = {"tkz-doc.cfg", "tkz-doc.cls", "couverture.tex", "tkzexample.sty", "README.md"}
+tagfiles = {"tkz-doc.cfg", "tkz-doc.cls", "tkzexample.sty", "README.md"}
 
 function update_tag(file, content, tagname, tagdate)
   if string.match(file, "%.cfg$") then
-    content = string.gsub(content,
-                          "\\fileversion{.-}",
-                          "\\fileversion{"..tkzdocv.."}")
-    content = string.gsub(content,
-                          "\\filedate{.-}",
-                          "\\filedate{"..tkzdocd.."}")
-    content = string.gsub(content,
-                          "\\typeout{%d%d%d%d%/%d%d%/%d%d %d+.%d+%a* %s*(.-)}",
-                          "\\typeout{"..tkzdocd.." "..tkzdocv.." %1}")
-  end
-  if string.match(file, "%.tex$") then
     content = string.gsub(content,
                           "\\fileversion{.-}",
                           "\\fileversion{"..tkzdocv.."}")
